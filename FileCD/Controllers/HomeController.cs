@@ -23,6 +23,11 @@ namespace FileCD.Controllers
         {
             return View();
         }
+
+        public IActionResult Upload()
+        {
+            return View();
+        }
         [HttpPost]
         public IActionResult Upload(IFormFile file)
         {
